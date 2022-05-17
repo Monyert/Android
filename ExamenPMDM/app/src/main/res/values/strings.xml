@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Examen PMDM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Titulo Cabecera</string>
+    <string name="nav_header_subtitle">Subtitulo</string>
+    <string name="nav_header_desc">Descripcion</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_inicio">Start</string>
+    <string name="title_funcion">Function</string>
+    <string name="title_adapter">SQL Adapter</string>
+
+    <string name="title_activity_main_menu">MainMenu</string>
+
+    <string name="title_activity_function">Function</string>
+    <string name="hint_funcion_valor">Write the Number</string>
+    <string name="boton_calcular_funcion">Calculate</string>
+    <string name="title_activity_adapter">AdapterActivity</string>
+</resources>

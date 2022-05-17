@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FunctionActivity"
+    tools:showIn="@layout/app_bar_function">
+
+    <EditText
+        android:id="@+id/valor_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:hint="@string/hint_funcion_valor"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/boto_calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boto_calcular"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="34dp"
+        android:onClick="calcularValor"
+        android:text="@string/boton_calcular_funcion"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_resultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/valor_numero" />
+
+    <Spinner
+        android:id="@+id/spinner_resultado"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="246dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boto_calcular" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen PMDM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_inicio">Inicio</string>
+    <string name="title_funcion">Funcion</string>
+    <string name="title_adapter">Adaptador SQL</string>
+
+    <string name="title_activity_main_menu">MainMenu</string>
+
+    <string name="title_activity_function">Funcion</string>
+        <string name="hint_funcion_valor">Escribe el Numero</string>
+    <string name="boton_calcular_funcion">Calcular</string>
+</resources>
