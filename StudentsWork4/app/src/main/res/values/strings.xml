@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StudentsWork4</string>
+    <string name="inici">Inici</string>
+    <string name="Jugar">Jugar</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="Toast_Game_Over">Game Over</string>
+</resources>
