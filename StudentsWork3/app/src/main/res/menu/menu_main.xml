@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.monyert.studentswork3.View.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Inici"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_poblacions"
+        android:orderInCategory="100"
+        android:title="Poblacions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gestio_poblacions"
+        android:orderInCategory="100"
+        android:title="Gestio Poblacions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gestio_tendes"
+        android:orderInCategory="100"
+        android:title="Gestio Tendes"
+        app:showAsAction="never" />
+</menu>

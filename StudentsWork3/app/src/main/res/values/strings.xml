@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StudentsWork3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_poblacions">PoblacionsActivity</string>
+    <string name="title_activity_tendes">Map</string>
+    <string name="title_activity_info_tendes">InfoTendesActivity</string>
+    <string name="title_activity_gestio_poblacions">GestioPoblacionsActivity</string>
+    <string name="title_activity_gestio_tendes">GestioTendesActivity</string>
+</resources>
