@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudentsWorkSQL</string>
+    <string name="menu_inicio">Inicio</string>
+    <string name="Menu_poblaciones">Poblaciones</string>
+    <string name="title_activity_poblacions">Mapa</string>
+</resources>

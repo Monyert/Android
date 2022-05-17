@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StudentsWorkSQL</string>
+    <string name="menu_inicio">Start</string>
+    <string name="Menu_poblaciones">Towns</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_poblacions">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

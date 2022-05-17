@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.monyert.studentsworksql.MainActivity">
+
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="100"
+        android:title="@string/menu_inicio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/poblaciones"
+        android:orderInCategory="100"
+        android:title="@string/Menu_poblaciones"
+        app:showAsAction="never" />
+
+</menu>
