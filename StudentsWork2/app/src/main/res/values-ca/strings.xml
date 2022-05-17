@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TreballEstudiants2</string>
+    <string name="app">Aplicacio Matematica Resolent Problemes</string>
+    <string name="created">Per Monyert</string>
+
+    <string name="nav_header_title">Projecte Estudiants de Subprocessos</string>
+    <string name="nav_header_subtitle">2DAM Students</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="titulo_home">Inici</string>
+    <string name="titulo_prime_solver">Nombres Primers</string>
+    <string name="titulo_prime_interval">Interval de Nombres Primers</string>
+    <string name="titulo_factorizar">Factoritzar Nombres</string>
+    <string name="titulo_menu_otros">Other functions</string>
+    <string name="title_activity_prime_number">PrimeNumberActivity</string>
+    <string name="text_header">Escriu un Nombre</string>
+    <string name="hint_prime_number">Escriu Aci</string>
+    <string name="button_prime_number">Es un Nombre Primer??</string>
+    <string name="resultado">Si o No?</string>
+    <string name="Interrupted_exception">AsyncTask Error</string>
+    <string name="text_button_interval">Cerca Primers en Interval</string>
+    <string name="waiting_for_numbers">Esperant els Nombres</string>
+    <string name="text_enter_number_factorize">Escriu un Nombre</string>
+    <string name="factorize_solution">Solucio Aci ...</string>
+    <string name="button_factorize">Factoritza</string>
+    <string name="title_activity_interval_prime_number">IntervalPrimeNumberActivity</string>
+    <string name="title_activity_factorize_number">FactorizeNumberActivity</string>
+</resources>

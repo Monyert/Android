@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="@string/titulo_home" />
+        <item
+            android:id="@+id/nav_prime_solver"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/titulo_prime_solver" />
+        <item
+            android:id="@+id/nav_prime_interval"
+            android:icon="@mipmap/menu_mini"
+            android:title="@string/titulo_prime_interval" />
+
+    </group>
+
+    <item android:title="@string/titulo_menu_otros">
+        <menu>
+            <item
+                android:id="@+id/nav_factorizar"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/titulo_factorizar" />
+        </menu>
+    </item>
+
+</menu>

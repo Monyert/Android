@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".IntervalPrimeNumberActivity"
+    tools:showIn="@layout/app_bar_interval_prime_number">
+
+    <EditText
+        android:id="@+id/interval_number1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/interval_button_start"
+        app:layout_constraintEnd_toStartOf="@+id/interval_number2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/interval_number2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:isScrollContainer="true"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/interval_number1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/interval_number1" />
+
+    <Button
+        android:id="@+id/interval_button_start"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="21dp"
+        android:onClick="findPrimeNumbers"
+        android:text="@string/text_button_interval"
+        app:layout_constraintBottom_toTopOf="@+id/text_resultado_interval"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interval_number1" />
+
+    <TextView
+        android:id="@+id/text_resultado_interval"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/waiting_for_numbers"
+        android:isScrollContainer="true"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interval_button_start" />
+</android.support.constraint.ConstraintLayout>

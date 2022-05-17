@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrabajoEstudiantes2</string>
+    <string name="app">Aplicacion Matematica Resolviendo Problemas</string>
+    <string name="created">Por Monyert</string>
+
+    <string name="nav_header_title">Proyecto Estudiantes Hilos</string>
+    <string name="nav_header_subtitle">2DAM Students</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="titulo_home">Inicio</string>
+    <string name="titulo_prime_solver">Numeros Primos</string>
+    <string name="titulo_prime_interval">Intervalo de Numeros Primos</string>
+    <string name="titulo_factorizar">Factorizar Numeros</string>
+    <string name="titulo_menu_otros">Other functions</string>
+    <string name="title_activity_prime_number">PrimeNumberActivity</string>
+    <string name="text_header">Escribe un Numero</string>
+    <string name="hint_prime_number">Escribe aqui</string>
+    <string name="button_prime_number">Es un Numero Primo??</string>
+    <string name="resultado">Si o No?</string>
+
+    <string name="Interrupted_exception">AsyncTask Error</string>
+    <string name="text_button_interval">Busca los Primos en Intervalo</string>
+    <string name="waiting_for_numbers">Esperando los Numeros</string>
+
+    <string name="text_enter_number_factorize">Escribe un Numero</string>
+    <string name="factorize_solution">Solucion Aqui ...</string>
+    <string name="button_factorize">Factoriza</string>
+    <string name="title_activity_interval_prime_number">IntervalPrimeNumberActivity</string>
+    <string name="title_activity_factorize_number">FactorizeNumberActivity</string>
+</resources>
