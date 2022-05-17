@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Treball Alumnes</string>
+    <string name="action_home">Inici</string>
+    <string name="action_settings">Configuracio</string>
+    <string name="texto">Aquest es el Primer Treball dels Alumnes</string>
+    <string name="action_buttons">Els meus Botons</string>
+    <string name="action_web">Les meues Pagines</string>
+    <string name="action_list">Les meues Llistes</string>
+
+    <string name="title_activity_my_buttons">Els meus Botons</string>
+    <string name="womanText">Dona</string>
+    <string name="manText">Home</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="toast_toggle_off">El toggle esta en Apagat</string>
+    <string name="toast_toggle_on">El toggle esta Ences</string>
+    <string name="women">Dona</string>
+    <string name="man">Home</string>
+    <string name="radio_alert">Alerta</string>
+    <string name="click_alert_woman">Dona Seleccionada</string>
+    <string name="click_alert_man">Home Seleccionat</string>
+    <string name="acept">Acceptar</string>
+    <string name="interrup">Interruptor</string>
+    <string name="switch_off">Interruptor OFF</string>
+    <string name="switch_on">Interruptor ON</string>
+
+    <string name="title_activity_my_webs">Les meues Pagines Web</string>
+    <string name="sub_web1">Lineage2</string>
+    <string name="url_lineage">https://eu.4game.com/lineage2/play/</string>
+    <string name="url_aion">https://es.aion.gameforge.com/website/</string>
+    <string name="sub_web2">Aion</string>
+    <string name="sub_web3">Tera</string>
+    <string name="url_tera">https://en.tera.gameforge.com/news/index</string>
+
+    <string name="title_activity_my_list">Les Meues Llistes</string>
+
+    <string name="text_mis_listas">El meu Anime favorit</string>
+    <string name="anime_db">Bola de Drac</string>
+    <string name="anime_dq">Les Aventures de Fly</string>
+    <string name="anime_bl">Llacuna Negra</string>
+    <string name="list_select">Selected</string>
+    <string name="selected">Seleccionat</string>
+
+
+</resources>

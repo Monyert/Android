@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MyButtonsActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_my_buttons">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="138dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="switch_on_off"
+        android:text="@string/interrup"
+        android:textOff="@string/switch_off"
+        android:textOn="@string/switch_on"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="419dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1"
+        app:layout_constraintVertical_bias="0.925">
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="177dp"
+            android:layout_height="42dp"
+
+            android:layout_marginBottom="81dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toggleButton">
+
+            <RadioButton
+                android:id="@+id/radio_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/women"
+                tools:layout_editor_absoluteX="7dp"
+                tools:layout_editor_absoluteY="77dp" />
+
+            <RadioButton
+                android:id="@+id/radio_man"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:checked="false"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/man"
+                tools:layout_editor_absoluteX="196dp"
+                tools:layout_editor_absoluteY="244dp" />
+
+        </RadioGroup>
+
+
+
+        <ImageButton
+            android:id="@+id/imageButtonOFF"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="58dp"
+            android:onClick="img_off"
+            app:layout_constraintBottom_toTopOf="@+id/toggleButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/offbutton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+
+            android:layout_marginStart="59dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="181dp"
+            android:onClick="button_on_off"
+            android:text="ToggleButton"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

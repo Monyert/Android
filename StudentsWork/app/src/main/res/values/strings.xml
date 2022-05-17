@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Students Work</string>
+    <string name="action_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto">This is the First Students Project</string>
+    <string name="action_buttons">My Buttons</string>
+    <string name="action_web">My Websites</string>
+    <string name="action_list">My Lists</string>
+
+    <string name="title_activity_my_buttons">My Buttons</string>
+    <string name="womanText">Woman</string>
+    <string name="manText">Man</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="toast_toggle_off">Toggle is now OFF</string>
+    <string name="toast_toggle_on">Toggle is now ON</string>
+    <string name="women">Women</string>
+    <string name="man">Man</string>
+    <string name="radio_alert">Alert</string>
+    <string name="click_alert_woman">Woman Selected</string>
+    <string name="click_alert_man">Man Selected</string>
+    <string name="acept">Accept</string>
+    <string name="interrup">Switch</string>
+    <string name="switch_off">Switch OFF</string>
+    <string name="switch_on">Switch ON</string>
+
+    <string name="title_activity_my_webs">My Webs</string>
+    <string name="sub_web1">Lineage2</string>
+    <string name="url_lineage">https://eu.4game.com/lineage2/play/</string>
+    <string name="url_aion">https://es.aion.gameforge.com/website/</string>
+    <string name="sub_web2">Aion</string>
+    <string name="sub_web3">Tera</string>
+    <string name="url_tera">https://en.tera.gameforge.com/news/index</string>
+
+
+    <string name="title_activity_my_list">My List</string>
+    <string name="text_mis_listas">My Favourite Anime</string>
+    <string name="anime_db">Dragon Ball</string>
+    <string name="anime_dq">Dragon Quest: Fly</string>
+    <string name="anime_bl">Black Lagon</string>
+    <string name="list_select">Selected</string>
+    <string name="selected">Selected</string>
+
+
+</resources>

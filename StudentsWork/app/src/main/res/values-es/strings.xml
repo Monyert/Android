@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trabajo Alumnos</string>
+    <string name="action_home">Inicio</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="texto">Este es el Primer Proyecto de los Alumnos</string>
+    <string name="action_buttons">Mis Botones</string>
+    <string name="action_web">Mis Paginas</string>
+    <string name="action_list">Mis Listas</string>
+
+    <string name="title_activity_my_buttons">Mis Botones</string>
+    <string name="womanText">Mujer</string>
+    <string name="manText">Hombre</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="toast_toggle_off">El toggle esta Apagado</string>
+    <string name="toast_toggle_on">El toogle esta Encendido</string>
+    <string name="women">Mujer</string>
+    <string name="man">Hombre</string>
+    <string name="radio_alert">Alerta</string>
+    <string name="click_alert_woman">Mujer Seleccionada</string>
+    <string name="click_alert_man">Hombre Seleccionado</string>
+    <string name="acept">Aceptar</string>
+    <string name="interrup">Interruptor</string>
+    <string name="switch_off">Interruptor OFF</string>
+    <string name="switch_on">Interruptor ON</string>
+
+    <string name="title_activity_my_webs">Mis paginas Web</string>
+    <string name="sub_web1">Lineage2</string>
+    <string name="url_lineage">https://eu.4game.com/lineage2/play/</string>
+    <string name="url_aion">https://es.aion.gameforge.com/website/</string>
+    <string name="sub_web2">Aion</string>
+    <string name="sub_web3">Tera</string>
+    <string name="url_tera">https://en.tera.gameforge.com/news/index</string>
+
+    <string name="title_activity_my_list">Mis Listas</string>
+
+    <string name="text_mis_listas">Mi Anime favorito</string>
+    <string name="anime_db">Bola de Dragon</string>
+    <string name="anime_dq">Las Aventuras de Fly</string>
+    <string name="anime_bl">Laguna Negra</string>
+    <string name="list_select">Selected</string>
+    <string name="selected">Seleccionado</string>
+
+
+</resources>
